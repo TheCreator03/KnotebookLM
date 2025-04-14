@@ -5,3 +5,10 @@ Knotebook LM is a system which helps in summarizing information throught a RAG(R
 This involves the use of a Google Embeddings and a Flask API as well as LangChain's database to split, embed, and store a set of text, offering a summary of information through all of these working together with each other. Keep in mind that this is in openeing stages, and I am also having this be a school project for coding class.
 
 This is inspired by Google's NotebookLM.
+
+# Operating Instructions
+
+In order to operate, follow these instructions:
+
+1. Start up the API by inputting "python api.py" in the terminal.
+2. Input your user, user ID, 
