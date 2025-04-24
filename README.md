@@ -11,7 +11,7 @@ This is inspired by Google's NotebookLM.
 1. Delete the text within the "test_text" variable within the "text_split.py" file.
 2. Run the "api.py" file within the terminal window.
 3. On another terminal window, run the "post.py" file, which would be able to run the post request for you.
-4. Once your post is created, your text will be turned into embeddingg ID's, and will be displayed in a list for you.
+4. Once your post is created, your text will be turned into embedding ID's, and will be displayed in a list for you.
 
 # Conclusion
 
