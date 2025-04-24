@@ -12,9 +12,11 @@ def handle_upload():
     notebook_id = body.get('notebook_id')
     doc_id = body.get('doc_id')
     text = body.get('text')
+# Assigns all of the variables to "handle_upload".
 
     if not user_id or not notebook_id or not doc_id or not text:
         return { "error": 'Bad Request' }, 400
+# Introduces a new error which tells 
     
     splits = split_text(text, user_id, doc_id, notebook_id)
     embedding_ids = add_documents(splits)

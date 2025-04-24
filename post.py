@@ -26,8 +26,10 @@ url = base_url + path
 
 data = {"text": test_text, "doc_id": "892", "user_id": "22", "notebook_id": 12}
 headers = {"Content-Type": "application/json"}
+# Creates a list of data such as text, document ID, user ID, and notebok ID for easy storage and location.
 
 response = requests.post(url, data=json.dumps(data), headers=headers)
+# Sends out a response through your request POST.
 
 if response.status_code == 200:
     print("Request successful!")
@@ -35,3 +37,4 @@ if response.status_code == 200:
 else:
     print(f"Error: {response.status_code}")
     print(response.text)
+# Prints errors to help locate the problem correctly.

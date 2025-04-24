@@ -26,3 +26,4 @@ for split in splits:
     print (split.page_content[:50], split.metadata)
 
 vector_ids = add_documents(splits)
+# Example user and document ID, uses the "split_text" definition to print the page out/
