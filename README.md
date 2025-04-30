@@ -52,8 +52,11 @@ Overall, I hope that you will enjoy the code I have created. Even though it may 
 # Links to More Information/Documentation
 
 Google API: https://cloud.google.com/ai/generative-ai?hl=en
+
 Flask API: https://flask.palletsprojects.com/en/stable/api/
+
 LangChain: https://python.langchain.com/api_reference/
+
 Chroma: https://python.langchain.com/docs/integrations/vectorstores/chroma/
 
 Hope this helps!
