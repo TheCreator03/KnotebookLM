@@ -17,6 +17,6 @@ vector_store = Chroma(
 )
 # Embeddings and vector stores created through Google GenAI and Chroma DB.
 
-def add_documents(purple_monkey_dishwasher_for_vincent):
-    return vector_store.add_documents(documents=purple_monkey_dishwasher_for_vincent)
+def add_documents(purple_monkey_dishwasher_for_TheCreator03):
+    return vector_store.add_documents(documents=purple_monkey_dishwasher_for_TheCreator03)
 # Defines where the vector store would add documents.

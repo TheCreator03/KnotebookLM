@@ -1,7 +1,7 @@
 from split import split_text
 from embed_and_store import add_documents
 
-test_text = "Hello, my name is Vincent Krause, please embed this so I can finish my CS project and not get a zero."
+test_text = "Hello, my name is TheCreator03, please embed this so I can finish my CS project and not get a zero."
 
 user_id = '321'
 document_id = '12345'
